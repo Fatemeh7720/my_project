@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    direction: rtl;
+    margin: 0;
+}
+
+.header {
+    font-size: 2em;
+    text-align: right;
+    background-image: repeating-linear-gradient(to top, #BC8F8F, #910016);
+    color: white;
+    padding: 20px;
+    font-family: B Nazanin;
+    margin: 0;
+    text-indent: 30px;
+    width: 100%;
+}
+
+#navbar {
+    font-family: B Nazanin;
+    display: flex;
+    border-top: none;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    background-color: #f0bbbb;
+}
+
+#navbar li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar li a.active {
+    color: white;
+    font-weight: bolder;
+
+}
+
+#navbar a:hover:not(.active) {
+    cursor: pointer;
+    color: maroon;
+    transition: 0.2s;
+    font-weight: bolder;
+}
+
+div.form {
+    width: 25%;
+    font-family: B Nazanin;
+    margin: 5% 5%;
+}
+
+input {
+    text-align: right;
+    padding: 10px;
+}
+
+input:focus {
+    border: 3px solid #555;
+    box-shadow: 1px 1px 5px lightgray;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.recovery {
+    text-decoration: none;
+    color: blue;
+}
+
+.recovery:hover {
+    cursor: pointer;
+    color: #990000;
+}
+
+input.button {
+    font-family: B Nazanin;
+    font-weight: 500;
+    background-color: #f0bbbb;
+    border: 1px solid #f0bbbb;
+    border-radius: 5px;
+}
+
+input.button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #910016;
+    font-size: 1.1em;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #ffe6ff;
+    width: 100%;
+    height: auto;
+    font-family: B Nazanin;
+    font-size: 1em;
+    margin: 0;
+    background-color: #ffe6ff;
+}
+
+.text1 {
+    text-align: right;
+}
+
+.icons {
+    direction: ltr;
+}
+
+.text2 {
+    text-align: center;
+}
